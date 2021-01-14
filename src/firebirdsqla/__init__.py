@@ -2,7 +2,7 @@
 Connection Shim
 """
 from firebirdsql import Connection
-from tpying import TypeVar
+from typing import TypeVar
 
 conn_T = TypeVar("T", bound="ConnectionShim")
 
